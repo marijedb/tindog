@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+}
+
+img {
+    width: 98%;
+}
+
+
+/* MAIN CONTAINER */
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    margin: .5rem auto;
+    border-radius: 1rem;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.logo {
+    width: 5rem;
+}
+
+
+
+/* MAIN */
+
+.dog-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.dog-img {
+    border-radius: 1rem;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 50%;
+    border: none;
+    background-color: #F8F8F8;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0;
+}
+
+.btn-dislike {
+    margin: 1rem 0.75rem;
+    background-image: url(images/icon-cross.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.2rem;
+}
+
+.btn-dislike:hover,
+.btn-dislike:focus {
+    background-color: #FFE7EF;
+}
+
+.btn-like {
+    margin: 1rem 0.75rem;
+    background-image: url(images/icon-heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.20rem;
+}
+
+.btn-like:hover, 
+.btn-like:focus {
+    background-color: #DBFFF4;
+}
+
+
+@media (min-width: 500px){
+    .container {
+        width: 500px;
+    }
+
+}
