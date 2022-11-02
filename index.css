@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #d44b4b5f;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -19,6 +20,7 @@ img {
     width: 100%;
     margin: .5rem auto;
     border-radius: 1rem;
+    box-shadow: 1px 1px 9px #000;
 }
 
 
@@ -46,6 +48,12 @@ header {
 
 /* MAIN */
 
+main {
+    position: relative;
+    /* top: 0;
+    left: 0; */
+}
+
 .dog-data {
     display: flex;
     align-items: center;
@@ -53,8 +61,42 @@ header {
     margin-top: .5rem;
 }
 
+.like-dislike-icon {
+    position: absolute;
+    width: 190px;
+    top: 45px;
+    left: 15px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
 .dog-img {
+    /* position: relative;
+    top: 0;
+    left: 0; */
     border-radius: 1rem;
+}
+
+.dog-description {
+    position: absolute;
+    bottom: 1.3rem;
+    left: 1rem;
+    z-index: 1;
+}
+
+.dog-name {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0 .5rem;
+
+}
+
+.dog-phrase {
+    color: #B7B7B7;
+    /* position: absolute;
+    bottom: 30px;
+    left: 1rem; */
+    margin: 0;
 }
 
 
@@ -103,9 +145,17 @@ button {
 }
 
 
+/* Utilities */
+
+.hidden {
+    display: none;
+}
+
+
+
 @media (min-width: 500px){
     .container {
-        width: 500px;
+        width: 350px;
     }
 
 }

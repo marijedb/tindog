@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,13 @@
 
     <title>Tindog</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <div class="container">
 
@@ -20,11 +26,15 @@
         </header>
 
         <main>
+            <img class="like-dislike-icon hidden" src="images/badge-like.png" alt="like icon">
+            <img class="like-dislike-icon hidden" src="images/badge-nope.png" alt="dislike icon">
             <div class="dog-data">
                 <img class="dog-img" src="./images/dog-bella.jpg" alt="">
             </div>
-            <!-- like or dislike logo -->
-            <!-- image of dog OR text that no images are left -->
+            <div class="dog-description">
+                <h3 class="dog-name">Bella, 6</h3>
+                <p class="dog-phrase">You can meet my owner too if you want. Or not whatever</p>
+            </div>
         </main>
 
         <footer>
@@ -35,4 +45,5 @@
     </div>
     <script src="/index.js" type="module"></script>
 </body>
+
 </html>
