@@ -4,7 +4,7 @@ class Dog {
     }
 
     getDogImageHtml(){
-        return `<img class="dog-img" src="./${this.avatar}" alt=""></img>`
+        return `<img class="dog-img" src="./${this.avatar}" alt="suitor ${this.name}"></img>`
     }
 
     getDogHtml(){
