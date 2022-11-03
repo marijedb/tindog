@@ -9,6 +9,7 @@ const dislikeIcon = document.getElementById("dislike-icon");
 
 dislikeBtn.addEventListener("click", function(){
     dislikeIcon.classList.remove("hidden")
+    dislikeIcon.blur()
     disabledButton()
     setTimeout(function(){
         suitor = getNewDog();
@@ -20,6 +21,7 @@ dislikeBtn.addEventListener("click", function(){
 
 likeBtn.addEventListener("click", function(){
     likeIcon.classList.remove("hidden");
+    likeIcon.blur()
     disabledButton()
     setTimeout(function(){
         suitor = getNewDog();
