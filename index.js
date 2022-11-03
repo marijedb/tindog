@@ -48,7 +48,8 @@ function render(){
     if(suitor.getDogHtml){
         document.getElementById("dog-data").innerHTML = suitor.getDogHtml();
     } else {
-        disabledButton();
+        likeBtn.classList.add("hidden");
+        dislikeBtn.classList.add("hidden")
         document.getElementById("dog-data").innerHTML = `
         <div class="end-message">
             <h1 class="end-title">Looks like we are out of dogs for you to play around with!</h1>
