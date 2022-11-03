@@ -93,7 +93,7 @@ main {
 .end-message {
     margin: 1rem 1rem;
     text-align: center;
-    height: 480px;
+    height: 350px;
 }
 
 .end-title {
@@ -157,6 +157,10 @@ button {
 @media (min-width: 500px){
     .container {
         width: 350px;
+    }
+
+    .end-message {
+        height: 480px;
     }
 
 }
