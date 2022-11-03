@@ -13,7 +13,7 @@ img {
 }
 
 
-/* MAIN CONTAINER */
+/* CONTENT CONTAINER */
 
 .container {
     background-color: #fff;
@@ -29,7 +29,6 @@ img {
 /* HEADER */
 
 header {
-    /* border: 2px solid grey; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,8 +49,6 @@ header {
 
 main {
     position: relative;
-    /* top: 0;
-    left: 0; */
 }
 
 .dog-data {
@@ -71,9 +68,6 @@ main {
 }
 
 .dog-img {
-    /* position: relative;
-    top: 0;
-    left: 0; */
     border-radius: 1rem;
 }
 
@@ -93,10 +87,17 @@ main {
 
 .dog-phrase {
     color: #B7B7B7;
-    /* position: absolute;
-    bottom: 30px;
-    left: 1rem; */
     margin: 0;
+}
+
+.end-message {
+    margin: 1rem 1rem;
+    text-align: center;
+    height: 480px;
+}
+
+.end-title {
+    font-size: 1.3rem;
 }
 
 
